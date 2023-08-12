@@ -65,6 +65,12 @@ jobs:
           source projects/env.sh
           make -j"$(nproc)"
 
+    - name: files
+      uses: actions/upload-artifact@v3
+      with:
+        name: files
+        path: projects
+
     - name: Unit Tests
       env:
         CC: ${{ matrix.compiler.CC }}
