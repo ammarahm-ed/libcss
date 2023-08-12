@@ -2,7 +2,7 @@ LibCSS -- a CSS parser and selection engine
 ===========================================
 
 Overview
---------
+-------- 
 
   LibCSS is a CSS parser and selection engine. It aims to parse the forward
   compatible CSS grammar.
